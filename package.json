@@ -1,12 +1,18 @@
 {
   "name": "ng-scoreboard-watch",
   "version": "0.0.1",
-  "description": "A sports scoreboard clock for AngularJS",
+  "description": "A sports scoreboard clock directive for AngularJS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "grunt travis"
   },
-  "repository": "",
+  "repository": "https://github.com/zeMirco/ng-scoreboard-clock",
   "author": "Mirco Zeiss <mirco.zeiss@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "karma": "~0.8",
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.3.0",
+    "grunt-karma": "~0.4.2"
+  }
 }
