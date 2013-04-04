@@ -43,5 +43,5 @@ angular.module('scoreboard', [])
         updateUi();
 
       }
-    }
+    };
   });
