@@ -21,6 +21,15 @@ Pass them to the directive through the `format` attribute.
 
 ## Test
 
+You need to have [karma](http://karma-runner.github.com/0.8/index.html) and [grunt](http://gruntjs.com/)
+installed to run the tests.
+
+Run
+
+```bash
+$ grunt test
+```
+
 ## License
 
 Copyright (C) 2013 [Mirco Zeiss](mailto: mirco.zeiss@gmail.com)
