@@ -2,13 +2,17 @@
 
 [![Build Status](https://travis-ci.org/zeMirco/ng-scoreboard-clock.png)](https://travis-ci.org/zeMirco/ng-scoreboard-clock)
 
-An angular.js directive to display the current time as seen on sports scoreboards.
+An angular.js directive to display the current time as seen on sports scoreboards. Check out the [demo]().
 
 ## How to use
+
+Place the following code snippet anywhere inside your `html` file.
 
 ```html
 <clock format="HH:mm"></clock>
 ```
+
+Be aware of [Internet Explorer](http://docs.angularjs.org/guide/ie) restrictions.
 
 ## Configuration
 
