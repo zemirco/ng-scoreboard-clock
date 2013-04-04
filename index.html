@@ -1,0 +1,32 @@
+<!doctype html>
+<html ng-app="myApp">
+<head>
+  <title>ng-scoreboard-clock</title>
+  <link rel="stylesheet" href="style.css"/>
+  <script src="./vendor/jquery-1.9.1.min.js"></script>
+  <script src="./vendor/angular.min.js"></script>
+  <script type="text/javascript" src="../index.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+  <h1>Angular.js directive <a href="https://github.com/zeMirco/ng-scoreboard-clock">ng-scoreboard-clock</a></h1>
+  <p>The text below shows the current time in HH:mm. The colon is blinking and indicates a one second time span.</p>
+  <div class="clock">
+    <clock format="HH:mm"></clock>
+  </div>
+  <br>
+  <p>Another example with different format</p>
+  <div class="bold">
+    <clock format="hh:mm a"></clock>
+  </div>
+  <hr>
+  <p>Font: <a href="http://fontstruct.com/fontstructions/show/segment_5">segment</a> by "Mylicia".</p>
+  <p>Optimized for web with <a href="http://www.fontsquirrel.com/tools/webfont-generator">Font Squirrel</a>.</p>
+  <p>
+    <a href="https://twitter.com/share" class="twitter-share-button" data-via="zeMirco">Tweet</a> -
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    <a href="https://twitter.com/zeMirco" class="twitter-follow-button" data-show-count="false">Follow @zeMirco</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+  </p>
+</body>
+</html>
