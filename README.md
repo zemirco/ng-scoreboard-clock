@@ -6,7 +6,25 @@ An angular.js directive to display the current time as seen on sports scoreboard
 
 ## How to use
 
-Place the following code snippet anywhere inside your `html` file.
+Download `scoreboard.js` and include the script in your `html` file.
+
+```html
+<script src="scoreboard.js"></script>
+```
+
+Then activate your angular.js app
+
+```html
+<html ng-app="myApp">
+```
+
+and inject `scoreboard` in your main angular.js JavaScript file
+
+```js
+angular.module('myApp', ['scoreboard']);
+```
+
+And last but not least place the following code snippet anywhere inside your `html` file.
 
 ```html
 <clock format="HH:mm"></clock>
