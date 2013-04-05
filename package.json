@@ -1,6 +1,6 @@
 {
   "name": "ng-scoreboard-watch",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A sports scoreboard clock directive for AngularJS",
   "main": "index.js",
   "scripts": {
