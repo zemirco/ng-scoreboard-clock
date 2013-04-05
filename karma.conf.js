@@ -14,7 +14,7 @@ files = [
   'example/vendor/angular-mocks.js',
 
   // our app
-  'index.js',
+  'scoreboard.js',
 
   // tests
   'test/test.js'
