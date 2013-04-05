@@ -10,7 +10,7 @@ angular.module('scoreboard', [])
         var updateTimeoutId;
         var hideTimeoutId;
 
-        var colon = '<span class="colon" style="opacity: 100;">:</span>';
+        var colon = '<span class="colon" style="opacity: 1;">:</span>';
 
         // schedule update in one second
         var updateLater = function() {
